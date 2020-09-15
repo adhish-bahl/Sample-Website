@@ -18,11 +18,11 @@ form
     margin-top: 50px;
     margin-left: 40px;
     color: black;
-    text-align-last: center;
 }
 label
 {
     margin-right: 10px;
+    margin-left: 130px;
 }
 body
 {
@@ -38,11 +38,13 @@ div
 {
     background-color: white;
     margin-left: 31%;
-    height: 150px;
+    height: 200px;
     width: 550px;
+
 }
 button
 {
     height: 25px;
     width: 80px;
+    margin-left: 220px;
 }
