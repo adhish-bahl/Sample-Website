@@ -10,15 +10,36 @@
     <body>
         <img src="download.jpg" alt="Logo">
         <h1>WELCOME TO CHRIST UNIVERSITY</h1>
-        <h2>Enter Your Login Details Below</h2>
+        <h2>Enter Your Details Below to Create a New Account.</h2>
         <form>
             <div>
+                <br>
+                <label for="fname" style="margin-left: 150px;">First Name*</label>
+                <input type="text" name="fname" id="fname"><br><br>
+
+                <label for="sname" style="margin-left: 150px;">Last Name*</label>
+                <input type="text" name="sname" id="sname"><br><br>
+
+                <label for="username" style="margin-left: 163px;">E-mail I'd*</label>
+                <input type="email" name="email" id="email"><br><br>
+
+                <label for="pass" style="margin-left: 120px;">Set a Password*</label>
+                <input type="password" name="pass" id="pass"> <br><br>
+
+                <label for="cpass" style="margin-left: 103px;">Corfirm Password*</label>
+                <input type="password" name="cpass" id="cpass"><br><br>
+
+                <label for="num" style="margin-left: 123px;">Mobile Number*</label>
+                <input type="text" name="num" id="num"><br><br>
+
+                <a href="">Already have an Account? Login</a> <br><br><br>
+
+                <button onclick="check1()" onmouseover="big()" id="butt" onmouseout="small()">Log-in</button>
+            </div>
             <br><br>
-            <label for="username">Enter e-mail I'd</label>
-            <input type="email" name="email" id="email"><br><br>
-            <label for="pass">Enter Password</label>
-            <input type="password" name="pass" id="pass"> <br><br><br>
-            <button onclick="check1()" onmouseover="big()" id="butt" onmouseout="small()">Log-in</button>
+            <div style="margin-left: 0%; width: 1500px; height: 50px; background-color:red; text-align-last: center; border: white solid; color: white;">
+                <br>
+                CONTACT US AT - Mail - mail@christuniversity.in <span style="margin-left: 20px;"></span> Web - <a href="https://christuniversity.in/" style="margin-left: 0px; color: white; font-size: 17px ;">christuniversity.in</a>
             </div>
         </form>
     </body>
