@@ -31,7 +31,9 @@ label
 
 body
 {
-    background-color: black;
+    background-image: url(back1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
 img
@@ -43,7 +45,7 @@ img
 
 div
 {
-    background-color: white;
+background-color: grey;
     margin-left: 31%;
     height: 350px;
     width: 550px;
